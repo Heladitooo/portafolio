@@ -1,0 +1,37 @@
+.inspiradorSection
+{
+  display: flex;
+  margin-left: 10px;
+
+
+}
+
+
+.inspirador
+{
+
+  margin: 60px 0;
+  width: 1450px;
+
+  font-size: 40px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #DEDEDE;
+
+  box-shadow: 10px 10px #F7F7F7;
+}
+
+.inspirador strong
+{
+  color: blue;
+}
+
+.inspirador img
+{
+
+  width: 500px;
+  height: 300px;
+}

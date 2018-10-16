@@ -1,0 +1,38 @@
+.div
+{
+  font-size: 40px;
+
+  display: flex;
+  margin-left: 625px
+}
+
+.diplomasSection
+{
+  margin-left: 10px;
+}
+
+.diplomas
+{
+  margin: 0;
+  margin-bottom: 20px;
+
+  width: 1450px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #DEDEDE;
+
+  box-shadow: 10px 10px #F7F7F7;
+}
+
+.diplomas img
+{
+  margin: 10px;
+
+  width: 500px;
+  height: 350px;
+}

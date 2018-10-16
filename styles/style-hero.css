@@ -1,0 +1,48 @@
+body
+{
+  margin: 0;
+
+  font-family: 'Kodchasan', agency FB;
+}
+
+.hero
+{
+  margin:0;
+
+  height: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+  font-size: 40px;
+
+  background-image: url('../images/hero-wa.jpg');
+  background-size: 1600px 500px;
+
+  border-bottom: 1px solid;
+  border-color: #DEDEDE;
+}
+
+.hero h1
+{
+  display: flex;
+  align-items: center;
+
+}
+
+.hero strong
+{
+  color: blue;
+}
+
+.hero img
+{
+
+  display: flex;
+  align-self: flex-end;
+
+  width: 300px;
+  height:  490px;
+}
