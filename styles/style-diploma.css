@@ -1,14 +1,19 @@
 .div
 {
-  font-size: 40px;
+  font-size: 140%;
 
   display: flex;
-  margin-left: 625px
+  flex-wrap: wrap;
+
+  justify-content: center;
 }
 
 .diplomasSection
 {
-  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .diplomas
@@ -16,7 +21,7 @@
   margin: 0;
   margin-bottom: 20px;
 
-  width: 1450px;
+  width:  74%;
 
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +38,5 @@
 {
   margin: 10px;
 
-  width: 500px;
-  height: 350px;
+  max-width: 34%;
 }

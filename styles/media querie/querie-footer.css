@@ -1,0 +1,54 @@
+@media screen and (max-width: 1092px)
+{
+}
+
+@media screen and (max-width: 767px)
+{
+    .footer
+    {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footerLogo
+    {
+
+      max-width:  13%;
+    }
+
+    .footer h5
+    {
+      margin: 10px 0;
+    }
+
+    .footerContacto
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin: 0;
+      font-size: 100%;
+
+    }
+
+    .footerGit
+    {
+      margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 480px)
+{
+
+}
+
+@media screen and (max-width: 320px)
+{
+
+
+}

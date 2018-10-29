@@ -1,0 +1,82 @@
+@media screen and (max-width: 1092px)
+{
+  .menu
+  {
+    position: relative;
+    z-index: 3;
+  }
+
+}
+
+@media screen and (max-width: 767px)
+{
+  .icon-menu
+  {
+    display: block;
+  }
+
+  .menu
+  {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menuDiv
+  {
+    font-size: 200%;
+
+    display: flex;
+    position: fixed;
+    z-index: 3;
+
+    top: 0;
+    left: -100vw;
+    bottom: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(181, 181, 181, .9);
+
+    transition: 1s;
+  }
+
+  .menu nav
+  {
+  display: block;
+  }
+
+  .menu li
+  {
+    margin-bottom: 10px;
+  }
+
+  .menuDiv.active
+  {
+
+    left: 0;
+  }
+
+
+  .menu img
+  {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (max-width: 480px)
+{
+
+}
+
+@media screen and (max-width: 320px)
+{
+
+
+}

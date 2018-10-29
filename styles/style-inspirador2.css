@@ -1,18 +1,21 @@
 .inspirador2Section
 {
   display: flex;
-  margin-left: 200px;
-  margin-right: 5px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 10px;
 }
 
 .inspirador2
 {
   margin: 60px 0;
-  width: 1450px;
+  width: 60%;
 
-  font-size: 40px;
+  font-size: 113%;
 
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: space-around;
   align-items: center;
 
@@ -24,6 +27,5 @@
 .inspirador2 img
 {
 
-  width: 500px;
-  height: 300px;
+  max-width: 40%;
 }

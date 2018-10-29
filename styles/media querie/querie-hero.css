@@ -1,0 +1,58 @@
+@media screen and (max-width: 1092px)
+{
+
+  .hero
+  {
+    width: 100%;
+
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero img
+  {
+    align-self: center;
+
+    position: absolute;
+    z-index: 1;
+    max-height: 75%;
+    max-width: 70%;
+  }
+
+  .hero h5
+  {
+      text-align: center;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+    font-size: 106%;
+
+  }
+}
+
+@media screen and (max-width: 767px)
+{
+
+  .hero img
+  {
+
+
+    max-height: 70%;
+    max-width: 80%;
+  }
+
+}
+
+
+@media screen and (max-width: 480px)
+{
+
+}
+
+@media screen and (max-width: 320px)
+{
+
+
+}

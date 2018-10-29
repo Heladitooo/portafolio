@@ -5,67 +5,105 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Kodchasan" rel="stylesheet">
 
     <link rel="icon" href="images/logo.png"/>
+
+    <link rel="stylesheet" href="styles/style-fonts.css"/>
+    <link rel="stylesheet" href="styles/style-header.css"/>
     <link rel="stylesheet" href="styles/style-hero.css"/>
     <link rel="stylesheet" href="styles/style-inspirador.css"/>
     <link rel="stylesheet" href="styles/style-inspirador2.css"/>
     <link rel="stylesheet" href="styles/style-diploma.css"/>
     <link rel="stylesheet" href="styles/style-footer.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-menu.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-hero.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-inspirador.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-inspirador2.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-footer.css"/>
+
+
+
+
+
+
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
     <title>Nicolas Prieto</title>
 
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
   </head>
+
+
   <body>
+
+    <i class="icon-menu" id="burger-menu"></i>
+
+
     <header class="menu">
-      <img src="images/logo.png" alt="logo">
 
-      <nav>
-        <li><a href="#quien-soy">Quien soy?</a></li>
 
-        <li><a href="#diplomas">Diplomas</a></li>
+        <img src="images/logo.png" alt="logo">
 
-        <li><a href="#contactame">contactame</a></li>
-      </nav>
+
+        <div class="menuDiv">
+          <nav>
+            <li><a href="#quien-soy">Quien soy?</a></li>
+
+            <li><a href="#diplomas">Diplomas</a></li>
+
+            <li><a href="#contactame">contactame</a></li>
+          </nav>
+        </div>
+
+
 
 
     </header>
 
-    <section>
+    <section id="heroSection">
       <article class="hero">
 
-        <h1>
-          <strong>Hola! <br/></strong> soy nicolás prieto un <br/><strong> desarrollador web</strong>
-        </h1>
+
+          <h5>
+            <strong>Hola! </strong> soy Nicolás Prieto un <strong> desarrollador web</strong>
+          </h5>
+
+
 
         <img src="images/hero.png" alt="hero">
 
       </article>
     </section>
 
+
     <section id="quien-soy" class="inspiradorSection">
       <article class="inspirador">
 
-        <img src="images/inspirador.jpg" alt="gallery"/>
+        <div class="inspiradorVideoDiv">
+          <iframe class="inspiradorVideo" src="https://www.youtube.com/embed/vsBM3U_3ORU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-        <h6>
-          Estudio desarrollo web, Enfocado en <strong>frontend</strong>
-        </h6>
+        </div>
+
+
+        <h5>
+          Estudio desarrollo web, Enfocado en <strong> frontend</strong>
+        </h5>
 
       </article>
     </section>
 
     <section class="inspirador2Section">
       <article class="inspirador2">
-        <h6>
+        <h5>
           <li>css</li>
           <li>html</li>
           <li>javaScript (basico)</li>
-        </h6>
+        </h5>
 
-        <img src="images/inspirador2.png" alt="gallery"/>
+        <img src="images/inspirador2.png" alt="gallery" width="500px"/>
 
       </article>
+
     </section>
 
     <div id="diplomas" class="div">
@@ -80,27 +118,33 @@
         <img src="images/dp-001.jpg" alt="diploma">
         <img src="images/dg-001.jpg" alt="diploma">
         <img src="images/dd-001.jpg" alt="diploma">
+        <img src="images/rd-001.jpg" alt="diploma">
+
 
 
       </article>
     </section>
 
     <footer id="contactame" class="footer">
-      <img src="images/logofooter.png" alt="logo">
+      <img src="images/logofooter.png" alt="logo" class="footerLogo">
 
+      <h5 class="footerFone">📱 Modo responsive</h5>
 
+      <div class="footerContacto">
+        <h5 class="footerGmail">nicolasestevanprieto@gmail.com</h5>
 
-      <div>
-          <li>nicolasestevanprieto@gmail.com</li>
+        <a href="https://github.com/np66/portafolio" target="_blank" class="footerGit">
+          <i class="icon-github"></i>
 
-        <a href="https://github.com/np66" target="_blank">
-          <img src="images/github.png" alt="github"/>
         </a>
-
       </div>
+
 
 
     </footer>
 
+    <script type="text/javascript" src="js/burger-menu.js">
+
+    </script>
   </body>
 </html>
