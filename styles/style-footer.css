@@ -1,12 +1,11 @@
 .footer
 {
+  display: grid;
+  justify-items: center;
   background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-
   color: white;
+  grid-gap: 5px;
+  padding: 10px;
 }
 
 .footerLogo
@@ -16,32 +15,11 @@
 
 .footerContacto
 {
-  display: flex;
-  align-items: center;
+
 
 }
 
 .footerGmail
 {
-  flex-wrap: wrap;
-  display: flex;
-  font-size: 74%;
-
   margin: 0;
-}
-
-.footerGit
-{
-  width: 40px;
-  height: 40px;
-
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.icon-github
-{
-  font-size: 253%;
-  color: white;
-  border: 0;
 }

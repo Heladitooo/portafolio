@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="styles/style-header.css"/>
     <link rel="stylesheet" href="styles/style-hero.css"/>
     <link rel="stylesheet" href="styles/style-inspirador.css"/>
-    <link rel="stylesheet" href="styles/style-inspirador2.css"/>
     <link rel="stylesheet" href="styles/style-diploma.css"/>
+    <link rel="stylesheet" href="styles/contacto.css"/>
     <link rel="stylesheet" href="styles/style-footer.css"/>
-    <link rel="stylesheet" href="styles/media querie/querie.css"/>
+
     <link rel="stylesheet" href="styles/media querie/querie-menu.css"/>
     <link rel="stylesheet" href="styles/media querie/querie-hero.css"/>
     <link rel="stylesheet" href="styles/media querie/querie-inspirador.css"/>
-    <link rel="stylesheet" href="styles/media querie/querie-inspirador2.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-diplomas.css"/>
+    <link rel="stylesheet" href="styles/media querie/querie-contacto.css"/>
+
     <link rel="stylesheet" href="styles/media querie/querie-footer.css"/>
 
 
@@ -42,69 +44,70 @@
     <header class="menu">
 
 
-        <img src="images/logo.png" alt="logo">
+        <img src="images/logofooter.png" alt="logo" >
 
 
-        <div class="menuDiv">
-          <nav>
+
+          <nav id="mn">
             <li><a href="#quien-soy">Quien soy?</a></li>
 
             <li><a href="#diplomas">Diplomas</a></li>
 
-            <li><a href="#contactame">contactame</a></li>
+            <li ><a href="#informacion">informacion</a></li>
           </nav>
-        </div>
 
 
 
 
     </header>
 
-    <section id="heroSection">
-      <article class="hero">
+    <section id="hero" class="hero">
 
 
-          <h5>
-            <strong>Hola! </strong> soy Nicolás Prieto un <strong> desarrollador web</strong>
+        <div class="h5d">
+          <h5 class="h5a">
+            <strong>Hola! </strong> soy Nicolás Prieto
           </h5>
+        </div>
 
 
+        <div class="himg"></div>
 
-        <img src="images/hero.png" alt="hero">
+        <div class="h5d">
+          <h5 class="h5b">un <strong> desarrollador web</strong></h5>
 
-      </article>
+        </div>
+
     </section>
 
 
     <section id="quien-soy" class="inspiradorSection">
-      <article class="inspirador">
 
-        <div class="inspiradorVideoDiv">
-          <iframe class="inspiradorVideo" src="https://www.youtube.com/embed/vsBM3U_3ORU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        </div>
-
-
+      <div class="conv">
         <h5>
           Estudio desarrollo web, Enfocado en <strong> frontend</strong>
         </h5>
 
-      </article>
-    </section>
+        <div class="video">
+          <iframe class="inspiradorVideo" width="560" height="315" src="https://www.youtube.com/embed/vsBM3U_3ORU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
 
-    <section class="inspirador2Section">
-      <article class="inspirador2">
+
+
+      <div class="cond">
         <h5>
           <li>css</li>
           <li>html</li>
-          <li>javaScript (basico)</li>
+          <li>javaScript</li>
         </h5>
 
         <img src="images/inspirador2.png" alt="gallery" width="500px"/>
+      </div>
 
-      </article>
 
     </section>
+
 
     <div id="diplomas" class="div">
       <h3>
@@ -113,28 +116,103 @@
     </div>
 
     <section class="diplomasSection">
-      <article class="diplomas">
 
-        <img src="images/dp-001.jpg" alt="diploma">
+
+          <div class="diplomas">
+
+            <img src="images/dp-001.jpg" alt="diploma">
+
+            <div class="">
+              <h5>curso de programacion basica</h5>
+              <h4>Este curso te enseña los conceptos basicos de la programcion web usando js y html</h4>
+            </div>
+
+          </div>
+
+
+        <div class="diplomas">
         <img src="images/dg-001.jpg" alt="diploma">
+
+        <div class="">
+          <h5>curso de git y gitHub</h5>
+          <h4>Este curso te enseña a crear multiples versiones de tu proyecto y a surbirlas a internet</h4>
+          </div>
+        </div>
+
+
+        <div class="diplomas">
         <img src="images/dd-001.jpg" alt="diploma">
+        <div class="">
+          <h5>curso de desarrollo web</h5>
+          <h4>Este curso te enseña la base para desarrollar paginas web, y dando estilos con css</h4>
+        </div>
+        </div>
+
+        <div class="diplomas">
         <img src="images/rd-001.jpg" alt="diploma">
 
+        <div class="">
+          <h5>curso de responsive design</h5>
+          <h4>Este curso te enseña a adaptar tu sitio web a la mayor cantidad de pantallas</h4>
+        </div>
+        </div>
 
+        <div class="diplomas">
+        <img src="images/dcgl-001.jpg" alt="diploma">
 
-      </article>
+        <div class="">
+          <h5>curso de css grid layout</h5>
+          <h4>este curso te enseña a acomodar de nanera mas flexible, facil y practica tu sitio web</h4>
+        </div>
+        </div>
+
+        <div class="diplomas">
+        <img src="images/aplw-001.jpg" alt="diploma">
+
+        <div class="">
+          <h5>curso de animaciones para la web/h5>
+          <h4>este curso te enseña a como animar objetos y controlar la animacion</h4>
+        </div>
+        </div>
     </section>
 
-    <footer id="contactame" class="footer">
+
+    <section class="ar" id="informacion">
+        <div class="fontdiv">
+            <h6>Como lo hice?</h6>
+            <h5>Puedes ver el codigo,imagenes,estilos,archivos<br/>
+              que use para crear mi portafolio.<br/>
+              Esta subido a un gitHubpage<br/>
+              por lo que puedes revisar todo lo de esta pagina web<br/>
+              <a href="https://github.com/np66/portafolio" target="_blank">https://github.com/np66/portafolio</a></h5>
+        </div>
+
+          <img src="images/1.png" alt="gitHub">
+    </section>
+
+
+    <section class="ar" id="ari">
+        <img src="images/2.png" alt="gitHub" class="imgARI">
+
+        <div class="">
+          <h6>Modo responsive</h6>
+          <h5>Este proyecto tiene modo responsive design
+             eso significa que se puede adaptar a la mayoria<br/>
+             de pantallas
+          </h5>
+        </div>
+
+    </section>
+
+
+
+    <footer  class="footer">
       <img src="images/logofooter.png" alt="logo" class="footerLogo">
 
-      <h5 class="footerFone">📱 Modo responsive</h5>
 
       <div class="footerContacto">
         <h5 class="footerGmail">nicolasestevanprieto@gmail.com</h5>
 
-        <a href="https://github.com/np66/portafolio" target="_blank" class="footerGit">
-          <i class="icon-github"></i>
 
         </a>
       </div>

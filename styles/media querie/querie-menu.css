@@ -1,72 +1,41 @@
 @media screen and (max-width: 1092px)
 {
-  .menu
-  {
-    position: relative;
-    z-index: 3;
-  }
+
 
 }
 
 @media screen and (max-width: 767px)
 {
-  .icon-menu
-  {
-    display: block;
-  }
-
   .menu
   {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .menuDiv
-  {
+    grid-template-columns: 1fr;
     font-size: 200%;
-
-    display: flex;
-    position: fixed;
-    z-index: 3;
-
-    top: 0;
-    left: -100vw;
-    bottom: 0;
-
-    width: 100vw;
-    height: 100vh;
-
-    justify-content: center;
-    align-items: center;
-
-    background-color: rgba(181, 181, 181, .9);
-
-    transition: 1s;
+    justify-items: center;
+    position: relative;
+    align-content: center;
   }
 
   .menu nav
   {
-  display: block;
+    grid-template-columns: 1fr;
+    position: fixed;
+    top: -1000px;
+    z-index: 3;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: repeat(3, 16%);
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(28, 28, 28, .9);
+    transition: 1s;
   }
 
-  .menu li
+  .icon-menu
   {
-    margin-bottom: 10px;
+    font-size: 200%;
+    position: fixed;
+    display: grid;
   }
-
-  .menuDiv.active
-  {
-
-    left: 0;
-  }
-
-
-  .menu img
-  {
-    display: block;
-    text-align: center;
-  }
-
 }
 
 

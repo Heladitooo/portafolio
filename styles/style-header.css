@@ -1,14 +1,13 @@
 .menu
 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  margin: 0 auto;
-
-  border-bottom: 2px solid;
-
-  background-color: white;
+ display: grid;
+ grid-template-columns: 5% 31%;
+ justify-content: space-between;
+ background-color: rgba(28, 28, 28, .9);
+ position: fixed;
+ width: 100vw;
+ z-index: 3;
+ top: 0px;
 }
 
 .menu img
@@ -17,31 +16,24 @@
   height: 70px;
 }
 
+
 .menu nav
 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
   align-items: center;
 }
 
+
 .menu li
 {
-  display: flex;
-
   list-style: none;
-
-  margin: 0 10px;
-
 }
 
 .menu a
 {
-  display: flex;
-  align-items: center;
-
   text-decoration: none;
-
-  color: black;
-
-  height: 60px;
+  color: white;
 
 }

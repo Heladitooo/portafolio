@@ -1,0 +1,38 @@
+.ar
+{
+  padding: 0 10%;
+  font-family: 'Kodchasan', arial;
+  color: #9b9b9b;
+  grid-template-columns: 70% 28%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 200%;
+
+}
+
+
+.ar a
+{
+  color: #474dff;
+}
+
+
+
+.ar h5, h6
+{
+ margin: 10px;
+}
+
+.ar img
+{
+
+  max-width: 100%;
+}
+
+#ari
+{
+  grid-template-columns:  28% 70%;
+
+}

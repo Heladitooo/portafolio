@@ -1,33 +1,20 @@
-var menu = document.querySelector(".menuDiv")
-var burgerMenu = document.querySelector("#burger-menu")
+var bm = document.getElementById("burger-menu");
+var mn = document.getElementById("mn");
+var pr = false;
 
-var ipad = window.matchMedia('screen and (max-width: 767px)')
 
-ipad.addListener(validacion)
+bm.addEventListener("touchstart",funcion)
 
-function validacion(evento)
+function funcion()
 {
-  if(ipad.matches)
+  if (pr == false)
   {
-    burgerMenu.addEventListener("click", abrirMenu)
+    mn.style.top = "0";
+    pr = true;
   }
   else
   {
-    burgerMenu.removeEventListener("click", abrirMenu)
-  }
-}
-  validacion(ipad);
-
-function abrirMenu()
-{
-  if (menu.classList.contains("active"))
-  {
-    menu.classList.remove("active");
-  }
-
-  else
-  {
-    menu.classList.add("active");
-
+    mn.style.top = "-1000px";
+    pr = false;
   }
 }

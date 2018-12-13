@@ -5,30 +5,26 @@ body
   font-family: 'Kodchasan', agency FB;
 }
 
-.heroSection
-{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .hero
 {
+  position: relative;
+  top: 70px;
+  display: grid;
+  grid-template-columns: 40% 13% 40%;
+  align-items: center;
+  justify-items: center;
+
+  justify-content: center;
+
   margin:0;
 
-  height: 500px;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-
-
-
-  font-size: 200%;
+  font-size: 300%;
 
 
   background-image: url('../images/hero-wa.jpg');
-  background-size: 1600px 500px;
+  background-size: 100% 100%;
 
   border-bottom: 1px solid;
   border-color: #DEDEDE;
@@ -41,19 +37,21 @@ body
   color: blue;
 }
 
-.hero img
+.himg
 {
-
-  display: flex;
-  align-self: flex-end;
-
-  max-height:  95%;
+  width: 180px;
+  height: 300px;
+  background-image: url('../images/ani.png');
+  animation-name: sonic;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(10);
 }
 
-/*@media screen and (max-width: 768px)
+@keyframes sonic
 {
-  body
+  100%
   {
-    border: 100px solid;
+    background-position: -1800px 0;
   }
-}*/
+}

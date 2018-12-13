@@ -1,42 +1,75 @@
 .div
 {
+  display: grid;
+  text-align: center;
   font-size: 140%;
+  margin: 0;
+}
 
-  display: flex;
-  flex-wrap: wrap;
+.div h3
+{
+  margin: 0;
 
-  justify-content: center;
 }
 
 .diplomasSection
 {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
   justify-content: center;
+  justify-items: center;
 
+  padding: 3%;
 }
+
+
 
 .diplomas
 {
+  display: grid;
+  grid-template-columns: 362px 1fr;
+  grid-template-rows: 1fr;
+  font-size: 149%;
   margin: 0;
-  margin-bottom: 20px;
-
-  width:  74%;
-
-  display: flex;
-  flex-wrap: wrap;
-
-  justify-content: center;
   align-items: center;
+  width: 90%;
 
-  background-color: #DEDEDE;
 
-  box-shadow: 10px 10px #F7F7F7;
+
+
+  position: relative;
+  text-align: center;
+
+  transition:  1s ease;
+
+  background-color: rgba(216, 216, 216, .7);
+
+
+
 }
+
+
 
 .diplomas img
 {
-  margin: 10px;
+  display: block;
+  max-width: 100%;
 
-  max-width: 34%;
+
+  transition:  1s ease;
+}
+
+
+
+
+.diplomas:hover
+{
+  transform: scale(1.1, 1);
+  font-size: 200%;
+}
+
+.diplomas:hover img
+{
 }
