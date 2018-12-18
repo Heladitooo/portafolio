@@ -2,7 +2,7 @@
 {
   padding: 0 10%;
   font-family: 'Kodchasan', arial;
-  color: #9b9b9b;
+  color: white;
   grid-template-columns: 70% 28%;
   display: grid;
   justify-content: center;
@@ -12,6 +12,11 @@
 
 }
 
+.cf
+{
+  background-color: black;
+
+}
 
 .ar a
 {

@@ -12,7 +12,7 @@
 
 }
 
-.diplomasSection
+.diplomasSection, #diplomaoculto
 {
   display: grid;
   grid-template-columns: 1fr;
@@ -21,7 +21,7 @@
   justify-content: center;
   justify-items: center;
 
-  padding: 3%;
+  padding: 0 3%;
 }
 
 
@@ -72,4 +72,53 @@
 
 .diplomas:hover img
 {
+}
+
+#ms
+{
+  display: grid;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+#diplomaoculto
+{
+  display: none;
+  animation-name: dpo;
+  animation-duration: .5s;
+  animation-play-state: paused;
+  padding: 10px 3%;
+
+}
+
+@keyframes dpo
+{
+  0%
+  {
+    transform: translatex(-100vw);
+  }
+
+
+
+  100%
+  {
+
+    transform: translatex(0px);
+  }
+}
+
+@keyframes dpi
+{
+  100%
+  {
+    transform: translatex(100vw);
+  }
+
+
+  0%
+  {
+    transform: translatex(0px);
+  }
 }

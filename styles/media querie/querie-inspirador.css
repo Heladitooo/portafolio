@@ -11,7 +11,7 @@
   .inspiradorSection
   {
     grid-template-columns: 1fr;
-    grid-gap: 5%;
+    grid-gap: 0%;
     margin: 14% 5%;
     font-size: 150%;
   }
@@ -19,7 +19,13 @@
   .cond, .conv
   {
     border: 0px;
-    background-color: #DEDEDE;
+    padding-bottom: 5%
+
+  }
+
+  .conv
+  {
+    border-bottom: 1px solid black;
   }
 }
 

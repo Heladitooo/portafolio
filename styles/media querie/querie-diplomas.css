@@ -10,6 +10,13 @@
   {
     grid-template-columns: 1fr ;
     font-size:100%;
+    border: 1px solid rgba(216, 216, 216, .7);
+  }
+
+  .diplomas:hover
+  {
+    transform: scale(1.1, 1);
+    font-size: 150%;
   }
 }
 
