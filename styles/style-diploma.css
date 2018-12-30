@@ -9,7 +9,7 @@
 .div h3
 {
   margin: 0;
-
+  margin-bottom: 1%;
 }
 
 .diplomasSection, #diplomaoculto
@@ -48,6 +48,14 @@
 
 
 
+}
+
+#meme
+{
+  color: red;
+  background-image: url("../images/ug.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 

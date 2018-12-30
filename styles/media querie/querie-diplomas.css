@@ -17,6 +17,21 @@
   {
     transform: scale(1.1, 1);
     font-size: 150%;
+
+  }
+
+  #meme:hover
+  {
+    background-size: 100% 20%;
+  }
+
+  #meme
+  {
+    background-position-y: bottom;
+    color: red;
+    background-image: url("../../images/ug.png");
+    background-size: 100% 14%;
+    background-repeat: no-repeat;
   }
 }
 
