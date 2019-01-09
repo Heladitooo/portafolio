@@ -11,6 +11,7 @@
     grid-template-columns: 1fr ;
     font-size:100%;
     border: 1px solid rgba(216, 216, 216, .7);
+  
   }
 
   .diplomas:hover
@@ -22,16 +23,17 @@
 
   #meme:hover
   {
-    background-size: 100% 20%;
+
   }
 
   #meme
   {
-    background-position-y: bottom;
+    background-position: right;
     color: red;
-    background-image: url("../../images/ug.png");
-    background-size: 100% 14%;
-    background-repeat: no-repeat;
+    background-image: url("../../images/way.png");
+    background-size: 10% 10%;
+    background-repeat: repeat-y;
+
   }
 }
 
