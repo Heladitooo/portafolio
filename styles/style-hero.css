@@ -2,17 +2,24 @@ body
 {
   margin: 0;
 
-  font-family: 'Kodchasan', agency FB;
+  font-family: 'Kodchasan', system-ui;
 }
 
 
+.herojr
+{
+
+  height: 500px;
+}
 
 .hero
 {
+  height: 100%;
   position: relative;
   top: 70px;
   display: grid;
-  grid-template-columns: 40% 13% 40%;
+  grid-template-rows: 1fr;
+  grid-template-columns: 40% 20% 40%;
   align-items: center;
   justify-items: center;
 
@@ -39,9 +46,11 @@ body
 
 .himg
 {
-  width: 180px;
-  height: 300px;
+  margin-top: 30%;
+  width: 219px;
+  height: 406px;
   background-image: url('../images/ani.png');
+
   animation-name: sonic;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -50,8 +59,9 @@ body
 
 @keyframes sonic
 {
+
   100%
   {
-    background-position: -1800px 0;
+    background-position: -2190px 0;
   }
 }

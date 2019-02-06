@@ -27,11 +27,13 @@
 
 .cond img
 {
+  
   width: 88%;
 }
 
 .conv
 {
+
   text-align: center;
 
 }
@@ -45,6 +47,7 @@
 
 .video
 {
+
   width: 88%;
   height: 0;
   position: relative;

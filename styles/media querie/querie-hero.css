@@ -11,6 +11,7 @@
 {
   .hero
   {
+    background-image: url('../../images/movil/hero-waM.png');
     top: 0;
     grid-template-columns: 1fr;
     font-size: 200%;
@@ -18,7 +19,7 @@
 
   .himg
   {
-    margin-top: 45px;
+    margin-top: 0;
   }
 
 
@@ -37,7 +38,7 @@
 {
   .himg
   {
-    margin-top: 45px;
+    margin-top: 0;
   }
 }
 

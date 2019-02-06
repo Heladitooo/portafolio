@@ -87,9 +87,12 @@
   display: grid;
   justify-content: center;
   text-decoration: underline;
+
   font-size: 150%;
-  margin-bottom: 15%;
+  margin:  15% ;
   text-align: center;
+
+
 }
 
 #diplomaoculto
@@ -99,7 +102,7 @@
   animation-duration: .5s;
   animation-play-state: paused;
   padding: 10px 3%;
-
+  justify-content: center;
 }
 
 @keyframes dpo
