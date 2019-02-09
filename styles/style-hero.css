@@ -49,7 +49,7 @@ body
   margin-top: 30%;
   width: 219px;
   height: 406px;
-  background-image: url('../images/ani.jpeg');
+  background-image: url('../images/ani.webp');
 
   animation-name: sonic;
   animation-duration: 1s;
