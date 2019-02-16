@@ -21,6 +21,12 @@
 .ar a
 {
   color: #474dff;
+  transition: 1s;
+}
+
+.ar:hover a
+{
+  font-size: 105%;
 }
 
 
